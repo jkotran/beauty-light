@@ -6,7 +6,6 @@ Contents
 
 - Global theme: Beauty Light
 - Plasma theme: Beauty Light
-- Aurorae decoration: Beauty Light
 - Color scheme: Beauty Light
 - Wallpaper: Beauty Light
 - Installer: scripts/install.sh
@@ -14,6 +13,7 @@ Contents
 Not provided
 
 - Icons: (Slot-Dark-Icons are recommended. Install separately via System Settings > Colors & Themes > Icons.)
+- Window Decorations: (Standard Breeze is used by default.)
 - KDE Plasma 5 support
 
 Install
@@ -41,7 +41,4 @@ Notes
     - [Github](https://github.com/L4ki)
     - [openDesktop.org](https://www.opendesktop.org/u/l4k1)
 - Icons remain set to Slot-Dark-Icons by design.
-- This repository bundles a renamed derivative of the original working
-  Beauty-Color-Aurorae-6 decoration, tuned toward Breeze-like light window
-  decoration colors.
 - This repository contains only the light-theme assets.

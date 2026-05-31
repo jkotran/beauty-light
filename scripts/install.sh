@@ -8,7 +8,6 @@ REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 # Source paths
 GLOBAL_THEME_SRC="$REPO_ROOT/global/$THEME_NAME"
 PLASMA_THEME_SRC="$REPO_ROOT/plasma/$THEME_NAME"
-AURORAE_THEME_SRC="$REPO_ROOT/aurorae/$THEME_NAME"
 COLOR_SCHEME_SRC="$REPO_ROOT/colors/BeautyLight.colors"
 WALLPAPER_SRC="$REPO_ROOT/wallpaper/beauty-light.png"
 
@@ -65,7 +64,6 @@ fi
 SHARE_DIR="$HOME_DIR/.local/share"
 GLOBAL_THEME_DEST="$SHARE_DIR/plasma/look-and-feel/$THEME_NAME"
 PLASMA_THEME_DEST="$SHARE_DIR/plasma/desktoptheme/$THEME_NAME"
-AURORAE_THEME_DEST="$SHARE_DIR/aurorae/themes/$THEME_NAME"
 COLOR_SCHEME_DEST="$SHARE_DIR/color-schemes/BeautyLight.colors"
 WALLPAPER_DEST_DIR="$SHARE_DIR/wallpapers/$THEME_NAME"
 
@@ -81,7 +79,7 @@ install_theme() {
     echo "Installing $DISPLAY_NAME locally to $HOME_DIR"
 
     # Check sources
-    for src in "$GLOBAL_THEME_SRC" "$PLASMA_THEME_SRC" "$AURORAE_THEME_SRC" "$COLOR_SCHEME_SRC" "$WALLPAPER_SRC"; do
+    for src in "$GLOBAL_THEME_SRC" "$PLASMA_THEME_SRC" "$COLOR_SCHEME_SRC" "$WALLPAPER_SRC"; do
         if [ ! -e "$src" ]; then
             echo "Error: Missing source path: $src"
             exit 1
@@ -89,7 +87,7 @@ install_theme() {
     done
 
     # Create directories
-    for dir in "$SHARE_DIR/plasma/look-and-feel" "$SHARE_DIR/plasma/desktoptheme" "$SHARE_DIR/aurorae/themes" "$SHARE_DIR/color-schemes" "$SHARE_DIR/wallpapers"; do
+    for dir in "$SHARE_DIR/plasma/look-and-feel" "$SHARE_DIR/plasma/desktoptheme" "$SHARE_DIR/color-schemes" "$SHARE_DIR/wallpapers"; do
         if [ "$DRY_RUN" = false ]; then
             mkdir -p "$dir"
         else
@@ -112,14 +110,6 @@ install_theme() {
         cp -r "$PLASMA_THEME_SRC" "$PLASMA_THEME_DEST"
     else
         log_action "rm -rf $PLASMA_THEME_DEST && cp -r $PLASMA_THEME_SRC $PLASMA_THEME_DEST"
-    fi
-
-    log_action "Copying Aurorae Theme..."
-    if [ "$DRY_RUN" = false ]; then
-        rm -rf "$AURORAE_THEME_DEST"
-        cp -r "$AURORAE_THEME_SRC" "$AURORAE_THEME_DEST"
-    else
-        log_action "rm -rf $AURORAE_THEME_DEST && cp -r $AURORAE_THEME_SRC $AURORAE_THEME_DEST"
     fi
 
     log_action "Copying Color Scheme..."
@@ -165,7 +155,6 @@ uninstall_theme() {
     REMOVALS=(
         "$GLOBAL_THEME_DEST"
         "$PLASMA_THEME_DEST"
-        "$AURORAE_THEME_DEST"
         "$COLOR_SCHEME_DEST"
         "$WALLPAPER_DEST_DIR"
     )

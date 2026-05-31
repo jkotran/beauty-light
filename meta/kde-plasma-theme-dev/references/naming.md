@@ -4,11 +4,11 @@
 | :--- | :--- | :--- |
 | **Folder Name** | `beauty-light` | The primary ID. Used in paths. |
 | **Internal Id** | `beauty-light` | Must match Folder Name exactly. |
-| **PluginId** | `beauty-light` | Used in `metadata.desktop`. |
 | **Display Name** | `Beauty Light` | What the user sees in settings. |
 
 ## The "PascalCase" Recommendation (Most Robust Path)
-While all-lowercase with hyphens is common, Plasma 6 relies on a mix of new JSON standards and older legacy engines (like Aurorae). The "least common denominator" that every KDE sub-engine reliably understands is a single PascalCase string (e.g., `BeautyLight`) with no hyphens or spaces. If you experience persistent auto-selection failures with hyphenated IDs, pivoting all IDs and folder names to PascalCase is the most robust path to resolution.
+Plasma 6 relies on a mix of new JSON standards and older legacy engines. The "least common denominator" that every KDE sub-engine reliably understands is a single PascalCase string (e.g., `BeautyLight`) with no hyphens or spaces. 
 
-## Hyphenated Names
-KDE Store often uses hyphens (e.g., `Beauty-Color-Light`). For local standalone derivatives, simple IDs without too many hyphens often resolve mapping bugs.
+**Proven Success:** Using PascalCase for the Color Scheme ID (`BeautyLight`) solved auto-selection failures where hyphenated names (`beauty-light`) failed, even when manual application worked. 
+
+If you experience persistent auto-selection failures with hyphenated IDs, pivoting IDs and folder names to PascalCase is the most robust path to resolution.

@@ -5,16 +5,16 @@ The `contents/defaults` file in a Global Theme tells Plasma which sub-components
 ## Color Scheme
 ```ini
 [kdeglobals][General]
-ColorScheme=beauty-light
+ColorScheme=BeautyLight
 ```
-*Note: This must match the filename of the `.colors` file (minus the extension) AND the internal `ColorScheme` key.*
+*Note: Use PascalCase (no hyphens) for the ID and filename to ensure the Global Theme mapping engine finds it reliably.*
 
-## Window Decoration (Aurorae)
-Plasma 6 is sensitive to the group name. Include these variations:
+## Window Decoration (Standard)
+To ensure stability, point to the system-standard Breeze decoration:
 ```ini
 [kwinrc][org.kde.kdecoration2]
-library=org.kde.kwin.aurorae
-theme=__aurorae__svg__beauty-light
+library=org.kde.breeze
+theme=Breeze
 ButtonsOnLeft=XIA
 ButtonsOnRight=
 ```
