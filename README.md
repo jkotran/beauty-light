@@ -13,9 +13,7 @@ Contents
 
 Not provided
 
-- Icons
-  - Breeze icons are used by default to ensure compatibility.
-  - Slot-Dark-Icons are recommended and can be installed separately via System Settings > Color & Themes > Icons > Get New.
+- Icons: (Slot-Dark-Icons are recommended. Install separately via System Settings > Colors & Themes > Icons.)
 - KDE Plasma 5 support
 
 Install
@@ -42,7 +40,7 @@ Notes
   - You may explore his artistic portfolio at:
     - [Github](https://github.com/L4ki)
     - [openDesktop.org](https://www.opendesktop.org/u/l4k1)
-- Icons default to Breeze for compatibility. Slot-Dark-Icons are recommended for the intended aesthetic.
+- Icons remain set to Slot-Dark-Icons by design.
 - This repository bundles a renamed derivative of the original working
   Beauty-Color-Aurorae-6 decoration, tuned toward Breeze-like light window
   decoration colors.

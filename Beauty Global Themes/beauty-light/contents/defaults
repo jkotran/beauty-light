@@ -11,7 +11,7 @@ LayoutName=org.kde.breeze.desktop
 ColorScheme=beauty-light
 
 [kdeglobals][Icons]
-Theme=breeze
+Theme=Slot-Dark-Icons
 
 [kcminputrc][Mouse]
 cursorTheme=breeze_cursors
@@ -23,6 +23,7 @@ Image=beauty-light
 name=beauty-light
 
 [kwinrc][org.kde.kdecoration2]
+ButtonsOnLeft=XIA
+ButtonsOnRight=
 library=org.kde.kwin.aurorae
 theme=__aurorae__svg__beauty-light
-

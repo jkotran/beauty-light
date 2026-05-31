@@ -6,7 +6,7 @@
                 "Name": "l4k1"
             }
         ],
-        "Category": "",
+        "Category": "KWin/Decoration",
         "Dependencies": [
         ],
         "EnabledByDefault": true,
