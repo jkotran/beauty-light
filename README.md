@@ -15,7 +15,7 @@ Not provided
 
 - Icons
   - Breeze icons are used by default to ensure compatibility.
-  - Slot-Dark-Icons are recommended and can be installed separately via System Settings > Color & Themes > Icons.
+  - Slot-Dark-Icons are recommended and can be installed separately via System Settings > Color & Themes > Icons > Get New.
 - KDE Plasma 5 support
 
 Install
