@@ -6,11 +6,11 @@ DISPLAY_NAME="Beauty Light"
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
 # Source paths
-GLOBAL_THEME_SRC="$REPO_ROOT/Beauty Global Themes/$THEME_NAME"
-PLASMA_THEME_SRC="$REPO_ROOT/Beauty Plasma Themes/$THEME_NAME"
-AURORAE_THEME_SRC="$REPO_ROOT/Beauty Window Decorations/$THEME_NAME"
-COLOR_SCHEME_SRC="$REPO_ROOT/Beauty Color Schemes/beauty-light.colors"
-WALLPAPER_SRC="$REPO_ROOT/Beauty Wallpapers/beauty-light.png"
+GLOBAL_THEME_SRC="$REPO_ROOT/global/$THEME_NAME"
+PLASMA_THEME_SRC="$REPO_ROOT/plasma/$THEME_NAME"
+AURORAE_THEME_SRC="$REPO_ROOT/aurorae/$THEME_NAME"
+COLOR_SCHEME_SRC="$REPO_ROOT/colors/beauty-light.colors"
+WALLPAPER_SRC="$REPO_ROOT/wallpaper/beauty-light.png"
 
 # Defaults
 ACTION="install"

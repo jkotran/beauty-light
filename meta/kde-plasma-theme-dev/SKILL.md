@@ -9,11 +9,11 @@ This skill provides a structured approach to working with KDE Plasma 6 themes, f
 
 ## Theme Structure Overview
 
-- **Global Theme (Look and Feel):** `plasma/look-and-feel/<id>/` - The "master" package that links everything.
-- **Plasma Theme:** `plasma/desktoptheme/<id>/` - Panels, widgets, and shell styling.
-- **Window Decoration (Aurorae):** `aurorae/themes/<id>/` - SVG-based window borders and buttons.
-- **Color Scheme:** `color-schemes/<id>.colors` - System-wide color palette.
-- **Wallpaper:** `wallpapers/<id>/` - Packaged wallpaper with `metadata.json`.
+- **Global Theme (Look and Feel):** `global/<id>/` - The "master" package that links everything.
+- **Plasma Theme:** `plasma/<id>/` - Panels, widgets, and shell styling.
+- **Window Decoration (Aurorae):** `aurorae/<id>/` - SVG-based window borders and buttons.
+- **Color Scheme:** `colors/<id>.colors` - System-wide color palette.
+- **Wallpaper:** `wallpaper/<id>/` - Packaged wallpaper with `metadata.json`.
 
 ## Core Workflows
 
