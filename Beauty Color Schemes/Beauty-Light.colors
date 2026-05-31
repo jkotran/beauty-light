@@ -131,8 +131,8 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [General]
-ColorScheme=BeautyLight
-Name=Beauty Color Light
+ColorScheme=beauty-light
+Name=Beauty Light
 shadeSortColumn=true
 
 [KDE]

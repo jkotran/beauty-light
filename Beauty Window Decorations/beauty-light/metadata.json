@@ -10,9 +10,9 @@
         "Dependencies": [
         ],
         "EnabledByDefault": true,
-        "Id": "Beauty-Color-Light",
+        "Id": "beauty-light",
         "License": "GPLv3",
-        "Name": "Beauty Color Light",
+        "Name": "Beauty Light",
         "Version": "1.0"
     }
 }

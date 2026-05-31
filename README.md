@@ -1,33 +1,43 @@
-Beauty Color Light
-==================
+# Beauty Light
 
-A standalone light KDE Plasma 6 theme derived from the Beauty theme set.
+A standalone light KDE Plasma 6 theme derived from Beauty-Plasma-Themes.
 
 Contents
-- Global theme: Beauty Color Light
-- Plasma theme: Beauty-Color-Light-Plasma
-- Aurorae decoration: Beauty Color Light (derived Aurorae decoration)
-- Color scheme: BeautyLight
-- Wallpaper: Beauty-Light
-- Installer: scripts/install_beauty_color_light.rb
+
+- Global theme: Beauty Light
+- Plasma theme: Beauty Light
+- Aurorae decoration: Beauty Light
+- Color scheme: Beauty Light
+- Wallpaper: Beauty Light
+- Installer: scripts/install.sh
+
+Not provided
+
+- Icons: (Breeze icons are used by default to ensure compatibility. Slot-Dark-Icons are recommended and can be installed separately via System Settings > Color & Themes > Icons.)
+- KDE Plasma 5 support
 
 Install
+
 1. Review the installer script.
 2. Run:
-   ruby ./scripts/install_beauty_color_light.rb
+   ./scripts/install.sh
 
 Uninstall
+
 - Run:
-  ruby ./scripts/install_beauty_color_light.rb --uninstall
+  ./scripts/install.sh --uninstall
 
 Dry run
+
 - Install preview:
-  ruby ./scripts/install_beauty_color_light.rb --dry-run
+  ./scripts/install.sh --dry-run
 - Uninstall preview:
-  ruby ./scripts/install_beauty_color_light.rb --uninstall --dry-run
+  ./scripts/install.sh --uninstall --dry-run
 
 Notes
-- Icons remain set to Slot-Dark-Icons by design.
+
+- **Please donate upstream.** If you use this theme, please donate to [L4ki](https://www.paypal.com/paypalme/VesnaLazic). He's the upstream theme developer. He's an outstanding open source community member who has shared his time and talent for everyone's benefit.
+- Icons default to Breeze for compatibility. Slot-Dark-Icons are recommended for the intended aesthetic.
 - This repository bundles a renamed derivative of the original working
   Beauty-Color-Aurorae-6 decoration, tuned toward Breeze-like light window
   decoration colors.

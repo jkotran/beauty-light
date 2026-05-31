@@ -8,21 +8,21 @@ LayoutName=org.kde.breeze.desktop
 LayoutName=org.kde.breeze.desktop
 
 [kdeglobals][General]
-ColorScheme=BeautyLight
+ColorScheme=beauty-light
 
 [kdeglobals][Icons]
-Theme=Slot-Dark-Icons
+Theme=breeze
 
 [kcminputrc][Mouse]
 cursorTheme=breeze_cursors
 
 [Wallpaper]
-Image=Beauty-Light
+Image=beauty-light
 
 [plasmarc][Theme]
-name=Beauty-Color-Light-Plasma
+name=beauty-light
 
 [kwinrc][org.kde.kdecoration2]
 library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Beauty-Color-Light
+theme=__aurorae__svg__beauty-light
 
