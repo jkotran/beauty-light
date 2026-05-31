@@ -10,7 +10,7 @@ ColorScheme=BeautyLight
 *Note: Use PascalCase (no hyphens) for the ID and filename to ensure the Global Theme mapping engine finds it reliably.*
 
 ## Window Decoration (Standard)
-To ensure stability, point to the system-standard Breeze decoration:
+To ensure stability and native performance (hardware acceleration), point to the system-standard Breeze decoration. This is the most reliable way to ensure window borders apply automatically in Plasma 6.
 ```ini
 [kwinrc][org.kde.kdecoration2]
 library=org.kde.breeze

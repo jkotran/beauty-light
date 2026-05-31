@@ -31,8 +31,10 @@ If components don't apply automatically when selecting a Global Theme:
 - **The Hyphen Pitfall:** Color Schemes with hyphens (e.g., `beauty-light`) often fail to auto-apply. Use PascalCase (e.g., `BeautyLight`) for the filename and internal ID to ensure reliability.
 - **Defaults Syntax:** Ensure the `defaults` file follows standard KConfig sections.
 
-### 3. Using Standard Components
-For maximum stability in Plasma 6, prefer linking to standard system components (like **Breeze** for window decorations) in the `defaults` file rather than bundling custom versions that may have fragile mapping logic.
+### 3. Using Standard Components (2026 Recommendation)
+As of 2026, the KDE project is undergoing significant architectural changes (transitioning fully to Wayland and optimizing for high-DPI). **For maximum stability and performance in Plasma 6, developers should stick with standard Breeze Window Decorations.** 
+
+Custom SVG-based engines like **Aurorae** are currently in maintenance mode and suffer from fragile auto-selection logic in Global Themes. Using Breeze ensures your theme remains compatible with hardware acceleration and hardware-level scaling.
 
 ## References
 
