@@ -9,7 +9,7 @@ REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 GLOBAL_THEME_SRC="$REPO_ROOT/global/$THEME_NAME"
 PLASMA_THEME_SRC="$REPO_ROOT/plasma/$THEME_NAME"
 AURORAE_THEME_SRC="$REPO_ROOT/aurorae/$THEME_NAME"
-COLOR_SCHEME_SRC="$REPO_ROOT/colors/beauty-light.colors"
+COLOR_SCHEME_SRC="$REPO_ROOT/colors/BeautyLight.colors"
 WALLPAPER_SRC="$REPO_ROOT/wallpaper/beauty-light.png"
 
 # Defaults
@@ -66,7 +66,7 @@ SHARE_DIR="$HOME_DIR/.local/share"
 GLOBAL_THEME_DEST="$SHARE_DIR/plasma/look-and-feel/$THEME_NAME"
 PLASMA_THEME_DEST="$SHARE_DIR/plasma/desktoptheme/$THEME_NAME"
 AURORAE_THEME_DEST="$SHARE_DIR/aurorae/themes/$THEME_NAME"
-COLOR_SCHEME_DEST="$SHARE_DIR/color-schemes/beauty-light.colors"
+COLOR_SCHEME_DEST="$SHARE_DIR/color-schemes/BeautyLight.colors"
 WALLPAPER_DEST_DIR="$SHARE_DIR/wallpapers/$THEME_NAME"
 
 log_action() {
