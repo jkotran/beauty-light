@@ -1,22 +1,20 @@
 {
-    "KPackageStructure": "Plasma/LookAndFeel",
-    "KPlugin": {
-        "Authors": [
-            {
-                "Email": "josephkotran@gmail.com",
-                "Name": "jkotran"
-            }
-        ],
-        "Category": "Global Themes (Plasma 6)",
-        "ServiceTypes": [
-            "Plasma/LookAndFeel"
-        ],
-        "EnabledByDefault": true,
-        "Name": "Beauty Light",
-        "Description": "Beauty Light global theme for Plasma 6 by jkotran",
-        "Id": "beauty-light",
-        "Version": "1.0",
-        "License": "GPLv3",
-        "Website": "https://github.com/jkotran/Beauty-Color-Light"
-    }
+  "KPackageStructure": "Plasma/LookAndFeel",
+  "KPlugin": {
+    "Authors": [
+      {
+        "Email": "josephkotran@gmail.com",
+        "Name": "jkotran"
+      }
+    ],
+    "Category": "Global Themes (Plasma 6)",
+    "ServiceTypes": ["Plasma/LookAndFeel"],
+    "EnabledByDefault": true,
+    "Name": "Beauty Light",
+    "Description": "Beauty Light global theme for Plasma 6 by jkotran",
+    "Id": "beauty-light",
+    "Version": "1.0",
+    "License": "GPLv3",
+    "Website": "https://github.com/jkotran/beauty-light"
+  }
 }

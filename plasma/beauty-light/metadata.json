@@ -1,23 +1,21 @@
 {
-    "KPackageStructure": "Plasma/Theme",
-    "KPlugin": {
-        "Authors": [
-            {
-                "Email": "josephkotran@gmail.com",
-                "Name": "jkotran"
-            }
-        ],
-        "Category": "Plasma Theme",
-        "ServiceTypes": [
-            "Plasma/Theme"
-        ],
-        "EnabledByDefault": true,
-        "Name": "Beauty Light",
-        "Description": "Beauty Light Plasma theme",
-        "Id": "beauty-light",
-        "Version": "1.0",
-        "License": "GPL-3.0+",
-        "Website": "https://github.com/jkotran/Beauty-Color-Light"
-    },
-    "X-Plasma-API": "5.0"
+  "KPackageStructure": "Plasma/Theme",
+  "KPlugin": {
+    "Authors": [
+      {
+        "Email": "josephkotran@gmail.com",
+        "Name": "jkotran"
+      }
+    ],
+    "Category": "Plasma Theme",
+    "ServiceTypes": ["Plasma/Theme"],
+    "EnabledByDefault": true,
+    "Name": "Beauty Light",
+    "Description": "Beauty Light Plasma theme",
+    "Id": "beauty-light",
+    "Version": "1.0",
+    "License": "GPL-3.0+",
+    "Website": "https://github.com/jkotran/beauty-light"
+  },
+  "X-Plasma-API": "5.0"
 }
